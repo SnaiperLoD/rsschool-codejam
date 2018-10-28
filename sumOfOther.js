@@ -1,5 +1,4 @@
 const sumOfOther = (arr) => {
-  let sum = array.reduce((acc, item) => acc + item);
+  let sum = arr.reduce((acc, item) => acc + item);
   return arr.map(item => sum - item);
 };
-sumOfOther();
